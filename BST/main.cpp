@@ -37,6 +37,10 @@ public:
 		PreOrder(root);
 	}
 
+	int Search(int value)
+	{
+		return Search(root, value);
+	}
 private:
 	void Insert(TreeNode* &node, int value)
 	{
@@ -72,6 +76,23 @@ private:
 			PreOrder(node->right);
 		}
 	}
+	int Search(TreeNode* node, int value)
+	{
+		if (node != NULL)
+		{
+			if (node->Value != value)
+			{
+				Search(node->left, value);
+				Search(node->right, value);
+			}
+			else if (node->Value == value)
+			{
+				return node->Value;
+			}
+		}
+		else return 9999;
+
+	}
 
 private:
 	TreeNode * root;
@@ -100,6 +121,11 @@ int main()
 	tr.PreOrder();
 	cout << endl << endl;
 
+	int temp;
+	cout << "Search" << endl;
+	cin >> temp;
+	cout << tr.Search(temp) << endl;
+	cout << endl << endl;
 
 	return 0;
 }

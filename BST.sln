@@ -9,24 +9,36 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj",
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Debug|ARM.ActiveCfg = Debug|Win32
+		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Debug|ARM64.ActiveCfg = Debug|Win32
 		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Debug|x64.ActiveCfg = Debug|x64
 		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Debug|x64.Build.0 = Debug|x64
 		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Debug|x86.ActiveCfg = Debug|Win32
 		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Debug|x86.Build.0 = Debug|Win32
+		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Release|ARM.ActiveCfg = Release|Win32
+		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Release|ARM64.ActiveCfg = Release|Win32
 		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Release|x64.ActiveCfg = Release|x64
 		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Release|x64.Build.0 = Release|x64
 		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Release|x86.ActiveCfg = Release|Win32
 		{BC1A7F3E-4385-48F8-B0D1-A151C03E1278}.Release|x86.Build.0 = Release|Win32
+		{E26129D0-850A-4059-A630-BCE000343206}.Debug|ARM.ActiveCfg = Debug|Win32
+		{E26129D0-850A-4059-A630-BCE000343206}.Debug|ARM64.ActiveCfg = Debug|Win32
 		{E26129D0-850A-4059-A630-BCE000343206}.Debug|x64.ActiveCfg = Debug|x64
 		{E26129D0-850A-4059-A630-BCE000343206}.Debug|x64.Build.0 = Debug|x64
 		{E26129D0-850A-4059-A630-BCE000343206}.Debug|x86.ActiveCfg = Debug|Win32
 		{E26129D0-850A-4059-A630-BCE000343206}.Debug|x86.Build.0 = Debug|Win32
+		{E26129D0-850A-4059-A630-BCE000343206}.Release|ARM.ActiveCfg = Release|Win32
+		{E26129D0-850A-4059-A630-BCE000343206}.Release|ARM64.ActiveCfg = Release|Win32
 		{E26129D0-850A-4059-A630-BCE000343206}.Release|x64.ActiveCfg = Release|x64
 		{E26129D0-850A-4059-A630-BCE000343206}.Release|x64.Build.0 = Release|x64
 		{E26129D0-850A-4059-A630-BCE000343206}.Release|x86.ActiveCfg = Release|Win32
